@@ -1,0 +1,19 @@
+@import url(styles/navbar.css);
+@import url(styles/header.css);
+
+:root {
+  --fonte: "Inter";
+  --cinza-claro: #667085;
+  --cinza-medio: #3A404E;
+  --cinza-escuro: #101828;
+  --branco: #FFFFFF;
+  --vermelho: #8E2424;
+  --rosa: rgba(195, 25, 25, 0.03);
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--fonte);
+  font-size: 16px;
+  font-weight: 400;
+}
